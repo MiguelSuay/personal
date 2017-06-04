@@ -1,0 +1,127 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 14px;
+  text-transform: uppercase;
+  }
+.menu li {
+   display: inline;
+   
+   }
+
+#home {
+  background-image:url('http://img4.wikia.nocookie.net/__cb20141117170211/ffg-android-universe/images/5/50/Wiki-background');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+}
+
+.intro h2 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding: 200px 10px 10px 10px;
+}
+
+.intro {
+  font-size: 20px;
+  color: #fff;
+}
+.intro a {
+  font-size: 20px;
+  color: #fff;
+}
+#About {
+  background-color:#aebec1;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+#Work {
+  background-color: #f7f7f8;
+}
+#Education {
+  background-color: #f7f7f7;
+  
+}
+
+ul.details{
+  list-style-type: circle;
+}
+.details li{
+  display: inline-block;
+  width:20%;
+  list-style-type: circle;
+  font-weight: bold;
+}
+h4 {
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.title_hover{
+  color:blue;
+  }
+/* Skills */
+.bar {
+    width: 80%;
+    background-color: grey;
+    left:0%;
+    right:20%;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    text-indent: 10px;
+    margin-top: 22px;
+}
+.progress {
+    
+    height: 50px;
+    background-color: black;
+    font: Sans-serif;
+    font-size: 22px;
+    color:white;
+    line-height:50px;
+    border-radius: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.progress_hover{
+  background-color: blue;
+}
+#a{
+  width: 30%;
+}
+#b{
+  width: 40%;
+}
+#c{
+  width: 50%;
+}
+#d{
+  width: 80%;
+}
+#e{
+  width: 20%;
+}
+#f{
+  width: 20%;
+}
+#g{
+  width: 0%;
+}
+/* Porfolio */
+.img_a{
+  margin: 25px;
+  border-radius: 8px;
+}
+#Contact {
+  font-family: Times New Roman;
+  font-size: 70px;
+  text-align: center;
+  background-color: #aebec1;
+}
