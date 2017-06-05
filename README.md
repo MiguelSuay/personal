@@ -1,6 +1,8 @@
 # personal
+
 Personal page
 This is a CV personal page, made as part of my prework for the intensive programming course of Accelerate HK.
+
 Host: https://.github.io/personal1
 ------- 
 
