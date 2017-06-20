@@ -1,14 +1,39 @@
+/*Adaptation to smaller screens*/
+@media only screen and (max-width: 550px) {
+    .details li {
+        display: block !important;
+        width: 80% !important;
+    }
+    #Contact {
+        height:auto !important;
+    }
+    .page-scroll{
+        display:none !important;
+    }
+    .resize {
+        font-size: 16px !important;
+        padding: 5px 5px !important;
+    }
+}
+/*General Structure*/
 .nav a {
   color: #5a5a5a;
   font-size: 18px;
   font-weight: bold;
-  padding: 14px 14px;
+  padding: 5px 14px;
   text-transform: uppercase;
   }
+ .nav hr{
+     margin: 1px;
+     border: 1px solid rgb(62, 149, 152);
+ }
+.menu {
+    margin-bottom: 0px;
+    background-color: rgb(62, 149, 152);
+}
 .menu li {
    display: inline;
-   
-   }
+    }
 
 #home {
   background-image:url('http://img4.wikia.nocookie.net/__cb20141117170211/ffg-android-universe/images/5/50/Wiki-background');
@@ -20,7 +45,7 @@
 
 .intro h2 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 48px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
   padding: 200px 10px 10px 10px;
@@ -36,16 +61,21 @@
 }
 #About {
   background-color:#aebec1;
-  height: 400px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   }
+.AboutMe{
+    margin: 50px 10px;
+
+}
 #Work {
   background-color: #f7f7f8;
+  margin-top:50px;
 }
 #Education {
   background-color: #f7f7f7;
-  
+
 }
 
 ul.details{
@@ -57,6 +87,9 @@ ul.details{
   list-style-type: circle;
   font-weight: bold;
 }
+h2 {
+    font-weight: bold;
+}
 h4 {
   color:black;
   text-decoration: none;
@@ -65,7 +98,7 @@ h4 {
 .title_hover{
   color:blue;
   }
-/* Skills */
+/* Skills Bar*/
 .bar {
     width: 80%;
     background-color: grey;
@@ -79,7 +112,7 @@ h4 {
     margin-top: 22px;
 }
 .progress {
-    
+
     height: 50px;
     background-color: black;
     font: Sans-serif;
@@ -91,7 +124,7 @@ h4 {
     border-bottom-right-radius: 25px;
 }
 .progress_hover{
-  background-color: blue;
+  background-color: rgb(11, 124, 142);
 }
 #a{
   width: 30%;
@@ -118,10 +151,36 @@ h4 {
 .img_a{
   margin: 25px;
   border-radius: 8px;
+  height: 177px;
+  width:236px;
 }
+.img_a:hover{
+    box-shadow: 6px 5px #A9A9A9;
+    opacity: 0.7;
+}
+
 #Contact {
   font-family: Times New Roman;
   font-size: 70px;
   text-align: center;
   background-color: #aebec1;
+  height:250px;
+}
+.project {
+    text-align: center;
+}
+.project p {
+    z-index: 3;
+position: absolute;
+font-size: 28px;
+font-family: "Times New Roman";
+color:white;
+font-weight: bold;
+visibility:hidden;
+top:100px;
+left:110px;
+}
+.project:hover p{
+    visibility: visible;
+    text-align: center;
 }

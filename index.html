@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- Latest compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--hasta aqui borrar si va mal-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Personal Page</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <script src="index.js"></script>
-    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Personal Page</title>
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--Link to my Css and JS-->
+<link href="index.css" rel="stylesheet" type="text/css" />
+<script src="index.js"></script>
+<!--Viewport-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <script src="index.js"></script>
     <!--Nav Bar-->
-    <div class="nav" >
+    <div class="nav navbar navbar-fixed-top" >
                 <ul class="menu">
                     <li class="">
-                        <a href="#home"></a>
+                        <a href="#home"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#About">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#Work">Work</a>
+                        <a class="resize" href="#Work">Work</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#Education">Education</a>
@@ -37,13 +40,15 @@
                         <a class="page-scroll" href="#Skills">Skills</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#Porfolio">Porfolio</a>
+                        <a class="resize" href="#Porfolio">Porfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#Contact">Contact</a>
                     </li>
                 </ul>
+                <hr>
       </div>
+
     <!--Home-->
     <div id="home">
         <div class="container">
@@ -57,7 +62,7 @@
     <!--About-->
     <div id="About">
       <div class="container">
-        <div class="About me">
+        <div class="AboutMe">
           <h3>About me</h3>
           <p>Its quite hard to describe oneself, in just a few lines, so many tings get out of sight. I will place a lorem ipsum here and will develope further later.</p>
           <p>PS: If I have to show this in class, I will just smile and improvise and introducion. </p>
@@ -65,7 +70,7 @@
           <p>Whats better than one lorem ipsum? Two lorem ipsum.</p>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
         </div>
-        <div class="About me">
+        <div class="AboutMe">
           <h3>Contact details</h3>
           <p><strong>Phone: </strong>(+852) 6014 1896</p>
           <p><strong>Mail: </strong>miguel@suayhk.com</p>
@@ -82,7 +87,7 @@
         <p>I started my own company at Hong Kong. Suay Limited aims to provide
 commercial and market research services to help the exportation of Asian goods
 to Spanish Speaking countries.</p>
-<p>My duties involve market research, client negotiation, cold calling, e-mailing and producing market research reports. 
+<p>My duties involve market research, client negotiation, cold calling, e-mailing and producing market research reports.
 </p></div>
         <hr>
         <div><a href="http://www.suayhk.com/"><h4>Marketing Executive</h4></a>
@@ -99,7 +104,7 @@ or Logistics)</li>
          <ul class="details"><li>Fortune Century Hong Kong Limited</li><li>Hong Kong</li><li>October 2014-March 2015</li></ul>
         <p>Introduction of Spanish delicacy foods from Europe into Hong Kong</p>
         <ul><p>Major duties:</p>
-        <p>Due being a small company I was in charge of diverse functions:</p> 
+        <p>Due being a small company I was in charge of diverse functions:</p>
           <li>Purchasing. I was in charge of contacting the food providers in Spain, negotiate with them and ensure product quality</li>
           <li>Sales and Marketing. I was responsible of finding new clients for the company through cold calling and visits.</li>
           <li>Logistics. Calculate freight costs, coordinate with transport carriers, arrange deliveries to clients and keep record of goods stored on warehouse</li>
@@ -114,7 +119,7 @@ or Logistics)</li>
       <div class= "title col-md-2"><h2>Education</h2></div>
       <div class= "cv col-md-10">
         <div><a href="http://www.suayhk.com/"><h4>Master Degree Intelligence Analysis</h4></a>
-         <ul class="details"><li>University Rey Juan Carlos I // University Carlos III de Madrid 
+         <ul class="details"><li>University Rey Juan Carlos I // University Carlos III de Madrid
 </li><li>Madrid (Spain)</li><li>Sep 2012 to Dec 2013</li></ul>
         <p>
   The Master in Analysis of Intelligence is the postgraduate program specialized in Analysis of Intelligence of reference in Spain. Through a unique program of information analysis and production of intelligence for decision making, bilingual training, a methodology that combines a master's degree, a case study, active and experiential learning techniques, as well as other teaching methodologies, our Students develop the knowledge and skills necessary to initiate and professionally develop the intelligence function, both within the administration, as well as in international organizations, companies and non-governmental organizations. </p></div>
@@ -137,12 +142,12 @@ or Logistics)</li>
       <div class= "cv col-md-10">
         <script src="index.js"></script>
       <div class="bar">
-        
+
   <div id= "a" class="progress">Javascript</div>
   </div>
   <p> <div class="bar">
   <div id= "b" class="progress">Jquery</div>
-  </div> 
+  </div>
    <p><div class="bar">
   <div id= "c" class="progress">Node Js</div>
   </div>
@@ -166,18 +171,18 @@ or Logistics)</li>
       <div class="container">
       <div><h2>Porfolio</h2></div>
       <div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"> </a></div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
+       <div class= "cv col-md-3 col-sm-6"><a class="project" href="https://miguelsuay.github.io/Album_1/"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"><p>Gallery</p></a> </div>
+       <div class= "cv col-md-3 col-sm-6"><a class="project" href="https://miguelsuay.github.io/Chess360/"><img class="img_a" src="https://raw.githubusercontent.com/MiguelSuay/Album_1/master/photos/N3.jpg"> <p>Chess960</p></a></div>
+       <div class= "cv col-md-3 col-sm-6"><a href="https://miguelsuay.github.io/Album_1/"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
+       <div class= "cv col-md-3 col-sm-6"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
        <div>
        <div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
-       <div class= "cv col-md-3"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"> </a></div>
+       <div class= "cv col-md-3 col-sm-6"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
+       <div class= "cv col-md-3 col-sm-6"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
+       <div class= "cv col-md-3 col-sm-6"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"></a> </div>
+       <div class= "cv col-md-3 col-sm-6"><a href="https://www.suayhk.com"><img class="img_a" src="https://s-media-cache-ak0.pinimg.com/236x/e0/de/1e/e0de1e485889c1e5064a94cd68cf9bd8.jpg"> </a></div>
        </div>
-       
+
       </div>
       </div>
       </div>
@@ -185,8 +190,11 @@ or Logistics)</li>
 
    <!--Contact-->
     <div id="Contact">
-      <p>You can reach me at:</p>
-      <p><a href="miguel@suayhk.com"> miguel@suayhk.com </a></p>
+        <div>
+            <p>You can reach me at:</p>
+            <p><a class= "col-md-2 col-md-offset-3" href="mailto:miguel@suayhk.com"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></a>
+            <a class= "col-md-2 col-md-offset-2"href="miguel@suayhk.com"> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></a></p>
+      </div>
     </div>
   </body>
 </html>
